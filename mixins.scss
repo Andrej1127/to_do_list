@@ -1,0 +1,7 @@
+@mixin bg-image () {
+  background-image: linear-gradient(to right, $pink, $purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

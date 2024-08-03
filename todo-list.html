@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="click-here">  
+  <button class="dark-mode-toggle" aria-label="toggle dark mode">
+   <img class="light-switch" src="images/moon.svg" alt="light switch">
+  </button>
+</div>  
+  <header class="new-task-header">
+
+    <h1 class="new-task-h1">Todo list</h1>
+
+        <form class="new-task-form">
+            <input 
+                type="text" 
+                class="new-task-input" 
+                placeholder="Write here your plans!">
+
+            <input 
+                type="submit" 
+                class="new-task-submit" 
+                value="Add task">
+
+        </form>
+
+  </header>
+
+  <main class="main-list">
+
+      <section class="task-list">
+
+          <h2>Tasks</h2>
+            <div
+            
+            class="tasks">
+
+            </div>
+
+      </section>
+   
+
+  </main>
+
+ <script src="script.js"></script>
+ <script src="darkmode.js"></script>
+  
+</body>
+</html>
